@@ -1,0 +1,123 @@
+.text_color h2{
+	color:blue;
+	border:3px solid;
+}
+.background_color h2{
+	background-color:lightgreen;
+	border:3px solid;
+}
+.text_alignment_center h2{
+	text-align:center;
+	border:3px solid;
+}
+.text_alignment_right h2{
+	text-align:right;
+	border:3px solid;
+}
+.text_alignment_left h2{
+	text-align:left;
+	border:3px solid;
+}
+.text_alignment_justify p{
+    text-align:justify;
+	border:3px solid;
+}
+.direction h2{
+    direction:rtl;
+	unicode-bidi:bidi-override;
+	border:3px solid;
+}
+.text_dec{
+	border:2px solid;
+}
+.text_decoration_line_overline h2{
+    text-decoration-line: overline;
+	text-decoration-color: red;
+}	
+.text_decoration_line_through h2{
+    text-decoration-line: line-through;
+	text-decoration-color: blue;
+}
+.text_decoration_line_underline h2{
+    text-decoration-line: underline;
+	text-decoration-color: green;
+}
+.text_decoration_line_overline_underline h2{
+    text-decoration-line: overline underline;
+	text-decoration-color: purple;
+}
+.text_decoration_line_underline_double h2{
+    text-decoration-line: underline;
+	text-decoration-style: double;
+}
+.text_decoration_line_underline_dashed h2{
+    text-decoration-line: underline;
+	text-decoration-style: dashed;
+}
+.text_decoration_line_underline_wavy h2{
+    text-decoration-line: underline;
+	text-decoration-style: wavy;
+}
+.text_decoration_line_underline_dotted h2{
+    text-decoration-line: underline;
+	text-decoration-style: dotted;
+}
+.text_decoration_line_underline_thickness h2{
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+.text_decoration_line_underline_thickness_all h2{
+    text-decoration-line: underline;
+    text-decoration-color: red;  
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;  
+}
+.text_indent h2{
+	text-indent: 50%;
+	border:3px solid;
+}
+.letter_spacing h2{
+	letter-spacing: 5px;
+	border:3px solid;
+}
+.line_spacing p{
+	line-height: 1.8;
+	border:3px solid;
+}
+.word_spacing p{
+	word-spacing: 10px;
+	border:3px solid;
+}
+.text_transform_uppercase h2{
+	text-transform: uppercase;
+	border:3px solid;
+}
+.text_transform_lowercase h2{
+    text-transform: lowercase;
+	border:3px solid;
+}
+.text_transform_capitalize h2{
+    text-transform: capitalize;
+	border:3px solid;
+}
+.text_shadow h2{
+	text-shadow: 2px 2px;
+	border:3px solid;
+}
+.text_shadow_color h2{
+	text-shadow: 2px 2px 5px red;
+	border:3px solid;
+}
+.text_shadow_all{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+
+
+
+
+
+
+	

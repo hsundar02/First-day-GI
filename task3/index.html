@@ -96,16 +96,11 @@
 	  <img src="./images/cat.jpg" alt="image of a cat">
 	  </div>
 	  <h4 style="border:2px solid"> Figure Tag</h4>
-	  <style>
-            figure {
-            padding: 3px;
+        <figure style="padding: 3px;
             width: 20%;
-            border: 1px solid;
-            }
-      </style>
-        <figure>
-        <img class="image_cat" src="./images/cat.jpg" alt="a cat" >
-        <figcaption>Image of a cat</figcaption>
+            border: 1px solid;">
+        <img style=" width: 25%;height:25%;" class="image_cat" src="./images/cat.jpg" alt="a cat" >
+
         </figure>
 		
 	   <h4 style="border:2px solid"> FigureCaption Tag</h4>
@@ -124,7 +119,7 @@
             }
         </style>
 
-        <figure>
+        <figure >
         <img class="image-cat" src="./images/cat.jpg" alt="a cat">
         <figcaption>Image of a cat</figcaption>
         </figure>
@@ -138,6 +133,7 @@
 	     <li>The &lt; ol &gt; tag defines an ordered list of items.</li> 
 		 <li>It behaves like a container for a list item that is listed in order.</li>
 	   </ol>
+	   
 	   <h4 style="border:2px solid">Map Tag</h4>
 	   <img src="./images/workplace.jpg" alt="Workplace" usemap="#workmap">
 		<map name="workmap">
@@ -145,5 +141,104 @@
         <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
         <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
         </map>
+		
+		<h4 style="border:2px solid"> Background image</h4>
+		<p style="background-image: url('./images/cat.jpg');">
+		You can specify background images<br>
+        for any visible HTML element.<br>
+        In this example, the background image<br>
+        is specified for a p element.<br>
+        By default, the background-image<br>
+        will repeat itself in the direction(s)<br>
+        where it is smaller than the element<br>
+        where it is specified. (Try resizing the<br>
+        browser window to see how the<br>
+        background image behaves.
+		</p>
+		<h4 style="border:2px solid">Anchor Tag</h4>
+		<p>Visit <a href="https://www.google.com/">here</a>
+        to go to google search site.</p>
+		
+		<h4 style="border:2px solid">Navigation Tag</h4>
+         <nav>
+         <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+         </ul>
+         </nav>
+		 
+		 <h4 style="border:2px solid">Discription List Tag</h4>
+		 <h4 style="border:2px solid">Data Tilte Tag</h4>
+		 <h4 style="border:2px solid">Data Data Tag</h4>
+		 <dl>
+           <dt>HTML</dt>
+           <dd>A markup language</dd>
+           <dt>CSS</dt>
+           <dd>A language to design webpages</dd>
+           <dt>JavaScript</dt>
+           <dd>A scripting language</dd>
+         </dl>
+		 
+		 <h4 style="border:2px solid">Form Tag</h4>
+		 <form>
+           Name: <input type="text">
+           Age: <input type="number">
+          <input type="submit" value="Submit">
+         </form>
+		 
+		 <h4 style="border:2px solid">Input Tag</h4>
+		 <form>
+           Name: <input type="text"><br>
+           Age: <input type="number"><br>
+           Email: <input type="email"><br>
+           Password: <input type="password"><br>
+           Id proof: <input type="file"><br>
+           <input type="submit" value="Submit">
+         </form>
+		 
+		 <h4 style="border:2px solid">Label Tag</h4>
+		   <p>Click on the label tag to activate the corresponding element.</p>
+          <form>
+           <label for="name">Name:</label>
+           <input type="text" id="name"><br>
+           <label>Age:
+           <input type="number">
+           </label>
+          </form>
+		 
+		 <h4 style="border:2px solid">Label Tag</h4>
+		 <form>
+          <label for="feedback">Feedback:</label>
+          <textarea id="feedback"></textarea><br>
+          <input type="submit" value="submit">
+         </form>
+		 
+		 <h4 style="border:2px solid">Label Tag</h4>
+		 <label for="lang">choose one: </label>
+		 <select id="lang">
+           <option value="HTML">HTML</option>
+           <option value="CSS">CSS</option>
+           <option value="javascript">JavaScript</option>
+         </select>
+		 
+		 <h4 style="border:2px solid">Table Tag</h4>
+		   <table border="1">
+		   <tr>
+		     <th>food</th>
+			 <th>drink</th>
+		   </tr>
+		   <tr>
+		     <td>apple</td>
+			 <td>milk</td>
+		   </tr>
+           <tr>
+             <td>pizza</td>
+             <td>cold-drinks</td>
+		   </tr>
+		   </table>
+			 
+		 
+		
    </body>
 </html>

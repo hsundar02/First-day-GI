@@ -10,3 +10,26 @@
  width: 10%;
  height:15%;
 }
+
+.h2 {
+	background-color: red;
+	color: white;
+	}
+		
+#second {
+		background-color: black;
+		color: white;
+		}
+		
+.third {
+		background-color: pink;
+		color: blue;
+		}
+		
+#second1 {
+		color: blue;
+		}
+		
+.third1 {
+		color: red;
+		}

@@ -207,21 +207,142 @@
            </label>
           </form>
 		 
-		 <h4 style="border:2px solid">Label Tag</h4>
+		 <h4 style="border:2px solid">Textarea Tag</h4>
 		 <form>
           <label for="feedback">Feedback:</label>
           <textarea id="feedback"></textarea><br>
           <input type="submit" value="submit">
          </form>
 		 
-		 <h4 style="border:2px solid">Label Tag</h4>
+		 <h4 style="border:2px solid">Option Tag</h4>
+		 <h4 style="border:2px solid">Select Tag</h4>
 		 <label for="lang">choose one: </label>
 		 <select id="lang">
            <option value="HTML">HTML</option>
            <option value="CSS">CSS</option>
            <option value="javascript">JavaScript</option>
          </select>
-		 
+			
+		 <h4 style="border:2px solid">Option Group Tag</h4>
+           <label for="lang">Choose one to start: </label>
+           <select id="lang">
+           <optgroup label="Web Design">
+           <option value="HTML">HTML</option>
+           <option value="CSS">CSS</option>
+           </optgroup>
+           <optgroup label="Web Development">
+           <option value="javascript">JavaScript</option>
+           <option value="Python">Python</option>
+           <option value="PHP">PHP</option>
+           </optgroup>
+           </select>
+		 <h4 style="border:2px solid">Fieldset Tag</h4>
+		 <h4 style="border:2px solid">Legend Tag</h4>
+		   <form>
+		    <fieldset>
+			  <legend>Personal date</legend>
+			  <label>name: <input type="text"></label>
+			  <label>age: <input type="number"></label>
+			</fieldset>
+			<fieldset>
+			  <legend>Academic data</legend>
+			  <label>Degree: <input type="text"></label>
+			  <label>Percentage: <input type="number"></label>
+			</fieldset>
+			<br>
+			<input type="submit" value="submit">
+		   </form>
+		   <h4 style="border:2px solid">Datalist Tag</h4>
+		     <form>
+			   <label>
+			    <input list="languages">
+				<datalist id="languages">
+				 <option value="HTML">HTML</option>
+				 <option value="CSS">CSS</option>
+				 <option value="JS"></option>
+				</datalist> 
+			   </label>
+			 </form>
+			<h4 style="border:2px solid">Button Tag</h4>
+		      <form>
+			    <label>Name: <input type="text"></label>
+				<button type="submit">Submit the form</button>
+			  </form>
+			<h4 style="border:2px solid">Thead Tag</h4>
+			  <table border="1">
+			    <thead>
+				  <tr>
+				    <th>Name</th>
+					<th>Age</th>
+				  </tr>
+				</thead>
+			  </table>
+			<h4 style="border:2px solid">Tbody Tag</h4> 
+			  <table border="1">
+			    <thead>
+				 <tr>
+				  <th>Name</th>
+				  <th>Age</th>
+				 </tr>
+				</thead>
+				<tbody>
+				 <tr>
+				  <td>John</td>
+				  <td>30</td>
+				 </tr>
+				 <tr>
+				   <td>Jean</td>
+				   <td>34</td>				   
+				 </tr>
+				</tbody>				
+			  </table>
+		 <h4 style="border:2px solid">Tfoot Tag</h4>		  
+           <table border="1">
+             <thead>
+               <tr>
+                 <th>Product</th>
+                 <th>Price</th>
+              </tr>
+             </thead>
+             <tbody>
+              <tr>
+                <td>Potato</td>
+                <td>40</td>
+              </tr>
+              <tr>
+               <td>Milk</td>
+               <td>20</td>
+              </tr>
+             </tbody>
+               <tfoot>
+                 <tr>
+                  <td>Total</td>
+                  <td>60</td>
+                 </tr>
+               </tfoot>
+           </table>
+		 <h4 style="border:2px solid">Trow Tag</h4>
+		   <table border="1">
+            <tr> <th>Name</th><th>Age</th> </tr>
+            <tr> <td>John</td><td>30</td> </tr>
+            <tr> <td>Jeany</td><td>34</td> </tr>
+           </table>
+		 <h4 style="border:2px solid">th Tag</h4> 
+		 <h4 style="border:2px solid">td Tag</h4> 
+		   <table border="1">
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>Jeany</td>
+              <td>34</td>
+            </tr>
+           </table>
 		 <h4 style="border:2px solid">Table Tag</h4>
 		   <table border="1">
 		   <tr>
@@ -237,8 +358,6 @@
              <td>cold-drinks</td>
 		   </tr>
 		   </table>
-			 
 		 
-		
    </body>
 </html>

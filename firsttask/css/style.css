@@ -1,20 +1,42 @@
-body 
-  {
-  background-color: lightgrey;
-  }
-h2 {
-  text-align: left;
-   }
-h3 {
-  text-align: left;
-   }
-p {
-  color: blue;
-  font-family: arial;
-  font-size: 20px;
-  }
+*{
+	box-sizing: border-box;
+}
+.user_nav { 
+ display: flex;
+}
+.user_nav a{
+	padding: 20px 20px 0 0;
+	border-top: 1px solid grey;
+}
+.header {
+display: flex;	
+	
+}
 .intro
   {
   text-align: center;
   background-color: lightgreen;
   }
+body 
+  {
+  background-color: lightgrey;
+  }
+h2 {
+    padding: 0 10px 10px 0;
+   }
+h3 {
+  text-align: left;
+   }
+p {
+  font-family: arial;
+  font-size: 20px;
+  }
+.edu_cla_head{
+  display: flex;
+  
+}
+.edu_cla_headright p{
+	background-color: blue;
+	text-align: center;
+    padding: 20px;
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
    <head>
+    <h4 style="border:2px solid">Meta Tag</h4>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width", initial-scale=1.0">
 	 <link rel="stylesheet" href="./css/style.css">
@@ -358,6 +359,106 @@
              <td>cold-drinks</td>
 		   </tr>
 		   </table>
-		 
-   </body>
+		 <h4 style="border:2px solid">Caption Tag</h4>
+		   <table>
+		     <caption>Users</caption>
+			   <thead>
+			    <tr>
+                  <th>Name</th>
+                  <th>Age</th>
+                </tr>
+               </thead>
+              <tbody>
+                <tr>
+				 <td>John</td>
+				 <td>30</td>
+				</tr>
+				<tr>
+				 <td>Jeany</td>
+				 <td>34</td>
+				</tr>
+			   </tbody>
+		   </table>
+		 <h4 style="border:2px solid">Colgroup Tag</h4>
+		 <h4 style="border:2px solid">Col Tag</h4>
+		   <table border="1">
+             <colgroup>
+              <col>
+                <col span="2" class="special">
+              </colgroup>
+              <thead>
+               <tr>
+                 <th>Name</th>
+                 <th>Age</th>
+                 <th>salary</th>
+               </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>John</td>
+                  <td>30</td>
+                  <td>2000$</td>
+                </tr>
+                <tr>
+                  <td>Jeany</td>
+                  <td>34</td>
+                  <td>2400$</td>
+                </tr>
+               </tbody>
+              </table>
+		   <h4 style="border:2px solid">Audio Tag</h4>
+			   <audio controls src="./media/audio.mp3">
+			   </audio>
+                 <audio controls>
+                 <source src="./media/audio.mp3">
+                 <source src="./media/audio.ogg">
+                 <source src="./media/audio.wav">
+                </audio>
+		   <h4 style="border:2px solid">Video Tag</h4>
+			  <video controls>
+                <source src="./media/video.mp4">
+              </video>
+		   <h4 style="border:2px solid">Track Tag</h4>
+		   <h4 style="border:2px solid">Source Tag</h4>
+			   <track srclang="en">
+                <source src="subtitle.vtt">
+               </track>
+		   <h4 style="border:2px solid">Track Tag</h4> 
+			 <div class="paracolor">
+             <p>The style tag is used to add internal CSS styles to the document.
+               Generally, it is placed in the head section of the document but can
+			   be used anywhere in the document.</p>	
+			 </div> 
+		   <h4 style="border:2px solid">Meter Tag</h4> 
+			   <p>Speed of bike was 30kmph <meter min="0" max="100" low="33" high="66" value="30">
+			   </meter>
+			   </p>
+		   <h4 style="border:2px solid">Progress Tag</h4>
+			   <p>The task is 75% complete <progress max="100" value="75">
+			   </progress></p>
+		   <h4 style="border:2px solid">Samp Tag</h4>
+			   <p><samp>Test cases failed <br> Please improve the algorithm</samp></p>
+		   <h4 style="border:2px solid">Template Tag</h4>
+			   <template id="moreLang">
+                <li>JavaScript</li>
+			    <li>Python</li>
+               </template>
+
+              <ul id="langList">
+               <li>C</li>
+               <li>C++</li>
+              </ul>
+             <button onclick="addMoreLang()">Add language from template</button>
+
+             <script>
+              const moreLang = document.getElementById("moreLang");
+              const langList = document.getElementById("langList");
+  
+			function addMoreLang() {
+			const clone = moreLang.content.cloneNode(true);
+			langList.appendChild(clone);
+             }
+            </script>
+			
+  </body>
 </html>

@@ -8,14 +8,23 @@
 	padding: 20px 20px 0 0;
 	border-top: 1px solid grey;
 }
-.header {
-display: flex;	
-	
+.header {	
+display: flex;		
+}
+.header img{
+    width: 160px;
+    height: 160px;
+    border: 3px solid black;
+    border-radius: 50%;
 }
 .intro
   {
   text-align: center;
   background-color: lightgreen;
+  }
+  .intro a{   
+    border: 3px solid red; 
+    padding: 6px 24px;
   }
 body 
   {
@@ -23,9 +32,6 @@ body
   }
 h2 {
     padding: 0 10px 10px 0;
-   }
-h3 {
-  text-align: left;
    }
 p {
   font-family: arial;
